@@ -10,7 +10,7 @@ namespace Ayudantia1.Context
 
         public DbSet<Role> roles { get; set;} = null;
 
-        public DataContext(DbContextOptions<DataContext> options) : base(options) {}
+        public DataContext(DbContextOptions<DataContext> options) : base(options) 
         {
             
         }
