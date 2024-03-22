@@ -1,11 +1,11 @@
 using System.Collections;
-using Ayudantia1.Models;
-using Ayudantia1.Src.Repositories;
+using Ayudantia1.src.Models;
+using Ayudantia1.src.Repositories;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ayudantia1.Src.Controllers
+namespace Ayudantia1.src.Controllers
 {
     
     public class UserController : BaseController
@@ -20,7 +20,7 @@ namespace Ayudantia1.Src.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<List<User>>> GetUsers(){
+        public async Task<ActionResult<List<User>>> GetAllUsers(){
 
             var users = await _userRepository.GetUsers();
             return users;

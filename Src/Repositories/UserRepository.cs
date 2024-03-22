@@ -1,8 +1,8 @@
-using Ayudantia1.Context;
-using Ayudantia1.Models;
+using Ayudantia1.src.Context;
+using Ayudantia1.src.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ayudantia1.Src.Repositories
+namespace Ayudantia1.src.Repositories
 {
     public class UserRepository : IUserRepository
     {

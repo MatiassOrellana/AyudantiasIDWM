@@ -1,4 +1,4 @@
-namespace Ayudantia1.Models
+namespace Ayudantia1.src.Models
 {
     public class User
     {
@@ -10,8 +10,8 @@ namespace Ayudantia1.Models
 
         public String password  { get; set; }
 
-        public int RoleId { get; set; }
+        public int roleId { get; set; }
 
-        public Role Role { get; set; }
+        public Role role { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-namespace Ayudantia1.Models
+namespace Ayudantia1.src.Models
 {
     public class Role
     {

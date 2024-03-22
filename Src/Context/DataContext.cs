@@ -1,7 +1,7 @@
-using Ayudantia1.Models;
+using Ayudantia1.src.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ayudantia1.Context
+namespace Ayudantia1.src.Context
 {
     public class DataContext : DbContext
     {
@@ -11,9 +11,9 @@ namespace Ayudantia1.Context
             
         }
 
-        public DbSet<User> users { get; set; }
+        public DbSet<User> users { get; set; } = null;
 
-        public DbSet<Role> roles { get; set; }
+        public DbSet<Role> roles { get; set; } = null;
 
         
 

@@ -1,6 +1,6 @@
-using Ayudantia1.Models;
+using Ayudantia1.src.Models;
 
-namespace Ayudantia1.Src.Repositories
+namespace Ayudantia1.src.Repositories
 {
     public interface IUserRepository
     {
