@@ -16,7 +16,7 @@ namespace Ayudantia1.src.Repositories
 
         public async Task<List<User>> GetUsers()
         {
-            var users = await _context.users.ToListAsync();
+            var users = await _context.Users.ToListAsync();
             return users;
         }
 

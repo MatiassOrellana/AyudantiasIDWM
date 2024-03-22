@@ -2,16 +2,16 @@ namespace Ayudantia1.src.Models
 {
     public class User
     {
-        public int id { get; set; }
+        public int Id { get; set; }
 
-        public String name { get; set; }
+        public required string Name { get; set; }
 
-        public String email { get; set; }
+        public required string Email { get; set; }
 
-        public String password  { get; set; }
+        public required string Password  { get; set; }
 
-        public int roleId { get; set; }
+        public int RoleId { get; set; }
 
-        public Role role { get; set; }
+        public required Role Role { get; set; }
     }
 }

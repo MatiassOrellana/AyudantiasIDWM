@@ -1,5 +1,6 @@
 using Ayudantia1.src.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace Ayudantia1.src.Context
 {
@@ -11,11 +12,8 @@ namespace Ayudantia1.src.Context
             
         }
 
-        public DbSet<User> users { get; set; } = null;
+        public DbSet<User> Users { get; set; }
 
-        public DbSet<Role> roles { get; set; } = null;
-
-        
-
+        public DbSet<Role> Roles { get; set; }
     }
 }
