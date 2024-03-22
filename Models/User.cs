@@ -9,5 +9,9 @@ namespace Ayudantia1.Models
         public String email { get; set; }
 
         public String password  { get; set; }
+
+        public int RoleId { get; set; }
+
+        public Role Role { get; set; }
     }
 }

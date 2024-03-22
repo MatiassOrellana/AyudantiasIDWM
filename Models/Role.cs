@@ -4,6 +4,6 @@ namespace Ayudantia1.Models
     {
         public int id { get; set; }
 
-        public String Role { get; set; }
+        public String role { get; set; } = string.Empty;
     }
 }
